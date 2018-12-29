@@ -1,0 +1,45 @@
+* * data/ggH/Output_smooth_2017MC.root
+ZJets * data/ggH/ZJetsCorr.root
+WJets * data/ggH/WJetsCorr.root
+PUWeight2016_central puw data/ggH/puWeights_All.root
+PUWeight2016_up puw_p data/ggH/puWeights_All.root
+PUWeight2016_down puw_m data/ggH/puWeights_All.root
+PUWeight2017_central pileup data/ggH/pileup_Cert_294927-306462_13TeV_PromptReco_Collisions17_withVar.root
+PUWeight2017_up pileup_plus data/ggH/pileup_Cert_294927-306462_13TeV_PromptReco_Collisions17_withVar.root
+PUWeight2017_down pileup_minus data/ggH/pileup_Cert_294927-306462_13TeV_PromptReco_Collisions17_withVar.root 
+* * data/ggH/TriggerEfficiencies_SingleMuon_Run2017_RunCtoF.root
+* * data/ggH/EfficienciesAndSF_RunBtoF_Nov17Nov2017.root
+* * data/ggH/RunBCDEF_data_ID.json
+* * data/ggH/RunBCDEF_data_ISO.json
+* * data/ggH/photon_id.ea.txt
+* * data/ggH/electron_id.ea.txt
+#MC 2016
+* * data/JEC/Spring16_25nsV10_MC/Spring16_25nsV10_MC_PtResolution_AK4PFPuppi.jr.txt
+* * data/JEC/Spring16_25nsV10_MC/Spring16_25nsV10_MC_SF_AK4PFPuppi.jersf.txt
+* * data/JEC/Summer16_23Sep2016V3_MC/Summer16_23Sep2016V3_MC_L1FastJet_AK4PFPuppi.jec.txt
+* * data/JEC/Summer16_23Sep2016V3_MC/Summer16_23Sep2016V3_MC_L2Relative_AK4PFPuppi.jec.txt
+* * data/JEC/Summer16_23Sep2016V3_MC/Summer16_23Sep2016V3_MC_L3Absolute_AK4PFPuppi.jec.txt
+#data 2016BCD
+* * data/JEC/Summer16_23Sep2016BCDV3_DATA/Summer16_23Sep2016BCDV3_DATA_L1FastJet_AK4PFPuppi.jec.txt
+* * data/JEC/Summer16_23Sep2016BCDV3_DATA/Summer16_23Sep2016BCDV3_DATA_L2Relative_AK4PFPuppi.jec.txt
+* * data/JEC/Summer16_23Sep2016BCDV3_DATA/Summer16_23Sep2016BCDV3_DATA_L3Absolute_AK4PFPuppi.jec.txt
+* * data/JEC/Summer16_23Sep2016BCDV3_DATA/Summer16_23Sep2016BCDV3_DATA_L2L3Residual_AK4PFPuppi.jec.txt
+* * data/JEC/Summer16_23Sep2016BCDV3_DATA/Summer16_23Sep2016BCDV3_DATA_Uncertainty_AK4PFPuppi.junc.txt
+#data 2016EF
+* * data/JEC/Summer16_23Sep2016EFV3_DATA/Summer16_23Sep2016EFV3_DATA_L1FastJet_AK4PFPuppi.jec.txt
+* * data/JEC/Summer16_23Sep2016EFV3_DATA/Summer16_23Sep2016EFV3_DATA_L2Relative_AK4PFPuppi.jec.txt
+* * data/JEC/Summer16_23Sep2016EFV3_DATA/Summer16_23Sep2016EFV3_DATA_L3Absolute_AK4PFPuppi.jec.txt
+* * data/JEC/Summer16_23Sep2016EFV3_DATA/Summer16_23Sep2016EFV3_DATA_L2L3Residual_AK4PFPuppi.jec.txt
+* * data/JEC/Summer16_23Sep2016EFV3_DATA/Summer16_23Sep2016EFV3_DATA_Uncertainty_AK4PFPuppi.junc.txt
+#data 2016G
+* * data/JEC/Summer16_23Sep2016GV3_DATA/Summer16_23Sep2016GV3_DATA_L1FastJet_AK4PFPuppi.jec.txt
+* * data/JEC/Summer16_23Sep2016GV3_DATA/Summer16_23Sep2016GV3_DATA_L2Relative_AK4PFPuppi.jec.txt
+* * data/JEC/Summer16_23Sep2016GV3_DATA/Summer16_23Sep2016GV3_DATA_L3Absolute_AK4PFPuppi.jec.txt
+* * data/JEC/Summer16_23Sep2016GV3_DATA/Summer16_23Sep2016GV3_DATA_L2L3Residual_AK4PFPuppi.jec.txt
+* * data/JEC/Summer16_23Sep2016GV3_DATA/Summer16_23Sep2016GV3_DATA_Uncertainty_AK4PFPuppi.junc.txt
+#data 2016H
+* * data/JEC/Summer16_23Sep2016HV3_DATA/Summer16_23Sep2016HV3_DATA_L1FastJet_AK4PFPuppi.jec.txt
+* * data/JEC/Summer16_23Sep2016HV3_DATA/Summer16_23Sep2016HV3_DATA_L2Relative_AK4PFPuppi.jec.txt
+* * data/JEC/Summer16_23Sep2016HV3_DATA/Summer16_23Sep2016HV3_DATA_L3Absolute_AK4PFPuppi.jec.txt
+* * data/JEC/Summer16_23Sep2016HV3_DATA/Summer16_23Sep2016HV3_DATA_L2L3Residual_AK4PFPuppi.jec.txt
+* * data/JEC/Summer16_23Sep2016HV3_DATA/Summer16_23Sep2016HV3_DATA_Uncertainty_AK4PFPuppi.junc.txt
