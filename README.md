@@ -1,4 +1,4 @@
-# CoffeeMaker
+# CoffeeGrinder
 ### Prerequisites
 
 * Python 2.7
@@ -29,7 +29,7 @@ Once you have installed the prerequisites, set up the striped client
 
 Now on a different directory, clone Coffea repository
 ```
-  git clone git@github.com:LPC-DM/CoffeaGrinder.git
+  git clone https://github.com/CoffeaTeam/CoffeaGrinder.git
   
  ```
 ### Run
