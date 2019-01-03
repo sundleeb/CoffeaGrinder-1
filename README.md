@@ -10,12 +10,15 @@
 * uproot 
 
 ```
-pip install numpy==1.13
+pip install numpy==1.15.2 --user
 pip install jupyter --user
-pip install ipython
+pip install ipython # you may need to install it through conda: conda install ipython
 pip install histbook --user
 pip install vega==1.1 --user
-pip install uproot --user
+pip install vegascope --user
+pip install uproot==3.3.0 --user
+pip install awkward==0.7.0 --user
+pip install fnal_column_analysis_tools -U
 ```
 Note: you might need to upgrade pip to version 18 to get Jupyter 4.3 or above  (`pip install --upgrade pip`)
 

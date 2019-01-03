@@ -7,15 +7,12 @@ from awkward import JaggedArray, Table
 #from vega import VegaLite as canvas                    # for ipyvega in Jupyter Notebook
 import vegascope; canvas = vegascope.LocalCanvas()   
 extractor = fnal_column_analysis_tools.lookup_tools.extractor()
-extractor.add_weight_sets(['* * eleTrig.root','* * muon_trig_Run2016BtoF.root'])
+extractor.add_weight_sets(['* * lookup_tables/corr/eleTrig.root','* * lookup_tables/corr/muon_trig_Run2016BtoF.root'])
 extractor.finalize()
 
 evaluator = extractor.make_evaluator()
 hist1 = Hist(bin("de_mass",50,0,200),weight='e_weight')
 hist2 = Hist(bin("dm_mass",50,0,200),weight='m_weight')
-
-
-f = "nano_5.root"
 
 met_trigger_paths = ["HLT_PFMET170_NoiseCleaned",
             "HLT_PFMET170_HBHECleaned",
@@ -73,7 +70,7 @@ all_columns = [electron_columns,muon_columns,jet_columns,photon_columns,met_trig
 columns = []
 for cols in all_columns: columns.extend(list(cols.values()))
 
-for arrays in uproot.iterate('root_files/*.root','Events',columns,entrysteps=10000000000:
+for arrays in uproot.iterate('test_coffeabeans/*.root','Events',columns,entrysteps=10000000000):
 		# initialize phyisics objects
 	triggers =  {'MET':np.prod([arrays[val] for val in met_trigger_columns], axis=0),
                      'SingleEle':np.prod([arrays[val] for val in singleele_trigger_columns],axis=0),
